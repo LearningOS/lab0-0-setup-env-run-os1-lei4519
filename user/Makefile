@@ -8,7 +8,7 @@ OBJCOPY := rust-objcopy --binary-architecture=riscv64
 PY := python3
 
 BASE ?= 0
-CHAPTER ?= 0
+CHAPTER ?= 1
 TEST ?= $(CHAPTER)
 
 ifeq ($(TEST), 0) # No test, deprecated, previously used in v3
